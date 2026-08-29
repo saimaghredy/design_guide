@@ -525,6 +525,8 @@
     color:var(--muted);
     line-height:1.6;
   }
+  footer.colophon a{color:var(--muted); text-decoration-color:var(--signal);}
+  footer.colophon a:hover{color:var(--signal);}
 
   @media (max-width:720px){
     nav.index{grid-template-columns:repeat(2,1fr);}
