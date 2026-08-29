@@ -320,6 +320,33 @@
   .pill.warn{color:var(--warn); background:var(--warn-bg);}
   .pill.cut{color:var(--cut); background:var(--cut-bg);}
 
+  .intro-note{
+    background:var(--paper-raised);
+    border:1px solid var(--line);
+    padding:22px 24px;
+    margin:0 0 40px;
+    max-width:720px;
+  }
+  .intro-note .label{
+    font-family:'Space Mono', monospace;
+    font-size:11px;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:var(--signal);
+    display:block;
+    margin-bottom:12px;
+  }
+  .intro-note p{
+    font-size:16.5px;
+    line-height:1.6;
+    color:var(--ink-soft);
+    margin:0 0 12px;
+    max-width:64ch;
+  }
+  .intro-note p:last-child{margin-bottom:0;}
+  .intro-note a{color:var(--ink); text-decoration-color:var(--signal); text-underline-offset:2px;}
+  .intro-note a:hover{color:var(--signal);}
+
   .review-note{
     background:var(--paper-raised);
     border:1px solid var(--line);
