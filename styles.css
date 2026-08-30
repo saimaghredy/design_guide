@@ -415,6 +415,7 @@
   }
   .tag-tool{color:var(--ink-soft); border-color:var(--ink-soft);}
   .tag-site{color:var(--muted); border-color:var(--line);}
+  .tag-ai{color:var(--signal); border-color:var(--signal);}
 
   .log-controls{
     display:flex;
